@@ -1,7 +1,7 @@
     <!-- OffCanvas Cart Start -->
     <div id="offcanvas-cart" class="offcanvas offcanvas-cart">
 
-        <div class="inner" [hidden]="_uw.car.length==0">
+        <div class="inner" [hidden]="_uw.car.length==0 || _uw.car.length!=undefined">
             <div class="head">
                 <span class="title">Mi carrito</span>
                 <button class="offcanvas-close">×</button>
